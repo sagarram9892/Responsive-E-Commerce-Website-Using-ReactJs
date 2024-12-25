@@ -1,0 +1,28 @@
+.t-container{
+    width: 100%;
+    background: var(--bg-color);
+    margin-top: 8em;
+}
+
+.t-container .child-c{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    line-height: 8em;
+    padding-bottom: 3em;
+}
+
+.t-container .child-c .img{
+    width: 500px;
+    background: white;
+}
+
+img{
+    height: 100px;
+    display: block;
+}
+
+
+h2{
+    text-align: center;
+}

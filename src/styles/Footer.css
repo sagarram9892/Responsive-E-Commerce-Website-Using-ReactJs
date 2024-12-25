@@ -1,0 +1,145 @@
+.footer{
+    /* height: 50vh; */
+    width: 100%;
+    background: #010123;
+    margin-top: 8em;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .down{
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 10em;
+    padding-block: 3em;
+  flex-wrap: wrap;
+gap: 4em;
+}
+
+.first{
+    width: 250px;
+}
+
+.first h1{
+    color: #fff;
+    font-size: 2.3em;
+}
+
+.first .caption{
+    font-size: 18.5px;
+}
+
+.second .caption{
+    font-size: 19px;
+    margin-bottom: 1em;
+}
+
+.third .caption{
+    font-size: 19px;
+}
+
+.text{
+    height: 50px;
+  width: 180px;
+  padding-left: 3em;
+  padding-right: 1em;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    line-height: 1em;
+    width: 250px;
+}
+
+.s-btn{
+    width: 150px;
+  height: 50px;
+  border: none;
+  background: #7575e9;
+  color: white;
+  font-weight: 900;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 2em;
+  font-weight: 400;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 250px;
+}
+
+.third .icons{
+    display: flex;
+    gap: 1em;
+}
+
+.third .icons .icon{
+    font-size: 1.4em;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth{
+    width: 250px;
+}
+
+.fourth .caption{
+    font-size: 19px;
+}
+
+.fourth a{
+    color: white;
+    font-size: 19px;
+}
+
+.g-start{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100px; */
+  width: 1200px;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  margin: auto;
+  position: absolute;
+  top: -50px;
+  padding-block: 3em;
+  gap: 3em;
+  flex-wrap: wrap;
+}
+
+.g-start .caption{
+    color: #000;
+    font-size: 19px;
+    width: 300px;
+    text-align: center;
+}
+
+.g-start .g-btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: rgb(69, 69, 241);
+    color: white;
+    cursor: pointer;
+    border-radius: 0;
+    opacity: 1;
+}
+

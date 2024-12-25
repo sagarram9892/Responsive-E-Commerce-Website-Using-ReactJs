@@ -1,0 +1,14 @@
+.star{
+    display: flex;
+    align-items: center;
+}
+
+.star-icon{
+    /* border: 1px solid yellow; */
+    color: orange;
+    font-size: 1.5em;
+}
+
+.reviews{
+    padding-left: 10px;
+}

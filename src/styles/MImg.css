@@ -1,0 +1,44 @@
+.main-screen img {
+    height: 250px;
+    width: 350px;
+}
+
+.g-img {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.g-img img {
+    cursor: pointer;
+    width: 160px;
+    display: block;
+    height: 100px;
+
+}
+
+.containeri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+@media (max-width:1000px) {
+    .containeri {
+        flex-direction: column-reverse;
+    }
+
+    .g-img {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-screen img {
+        height: 250px;
+        width: 350px;
+        max-width: 100%;
+    }
+}

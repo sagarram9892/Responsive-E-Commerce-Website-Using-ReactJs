@@ -1,0 +1,306 @@
+.cart_container {
+    margin: 7em auto 22em;
+    width: 1000px;
+    max-width: 100%;
+    padding-inline: 1em;
+    position: relative;
+}
+
+.name_column {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.color-segment {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+hr {
+    margin-bottom: 1em;
+}
+
+.cart_item_container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 6em; */
+}
+
+.cart_item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.cart_item_container img {
+    height: 40px;
+    width: 60px;
+}
+
+.name_color {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 150px;
+    /* margin-right: 1em; */
+}
+
+.n_c {
+    font-size: 15px;
+}
+
+.n_c button {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+}
+
+.s-width {
+    width: 200px;
+}
+
+.r-width {
+    text-align: end;
+    width: 153px;
+}
+
+.subtotal {
+    width: 118px;
+    text-align: start;
+    margin-right: 2em;
+}
+
+.price {
+    width: 120px;
+    text-align: end;
+}
+
+.quantity {
+    width: 250px;
+    text-align: center;
+
+}
+
+.item {
+    width: 150px;
+    text-align: center;
+}
+
+.trash {
+    color: red;
+    cursor: pointer;
+}
+
+.t-trash {
+    width: 50px;
+    margin-left: 3em;
+}
+
+.remove {
+    width: 70px;
+}
+
+.media-gap {
+    display: none;
+}
+
+.amount1 {
+    width: 100px;
+    text-align: center;
+}
+
+.two_btns {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+.shop_btn {
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    background: #4343fc;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+.shop_btn:hover {
+    height: 45px;
+    width: 145px;
+}
+
+.clear_btn {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    background: #f74646;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+.clear_btn:hover {
+    height: 45px;
+    width: 95px;
+}
+
+.empty_cap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.empty_cap h3 {
+    font-size: 3.5vw;
+
+}
+
+.mini_price p{
+width: 100px;
+text-align: center;
+}
+
+.f-price{
+    width: 100px;
+    text-align: center;
+}
+
+.subtotal_price{
+    width: 200px;
+    height: 200px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f3eeee;
+  border-radius: 10px;
+}
+
+.subtotal_price .t-flex{
+    display: flex;
+    font-size: 1.1em;
+}
+
+.subtotal_price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  z-index: 100;
+  right: 0;
+  margin-top: 2em;
+}
+
+.subtotal_price .t-flex p{
+    font-weight: 800;
+}
+
+.total .t-flex{
+    display: flex;
+}
+
+.total .t-flex p{
+font-weight: 800;
+}
+
+.s-center{
+    height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line{
+    margin-bottom: 0;
+}
+
+
+@media (max-width:800px) {
+
+
+    .f-price {
+        display: none;
+        visibility: hidden;
+    }
+
+    .price {
+        width: 100px;
+        text-align: start;
+    }
+
+    .media-gap {
+        display: block;
+        margin-left: 2em;
+    }
+
+    .name_color {
+        flex-direction: column;
+    }
+
+    .amount1 {
+        width: 100px;
+        text-align: center;
+        display: none;
+    }
+
+    .item {
+        text-align: start;
+    }
+
+    .name_color {
+        align-items: start;
+        width: 20%;
+    }
+
+    .quantity {
+        display: none;
+    }
+
+    .subtotal {
+        width: 100px;
+        text-align: center;
+        margin-left: 2em;
+    }
+
+    .t-trash {
+        margin-left: 4em;
+    }
+
+}
+
+@media (max-width:700px) {
+    .hide {
+        display: none;
+    }
+
+    .amount1 {
+        display: none;
+    }
+
+    .item {
+        text-align: start;
+    }
+
+    .name_color {
+        align-items: start;
+        width: 20%;
+    }
+
+    .media-gap {
+        display: block;
+    }
+
+    .t-trash {
+        margin-left: 2em;
+        text-align: center;
+    }
+}

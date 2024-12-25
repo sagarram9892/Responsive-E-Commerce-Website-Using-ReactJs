@@ -1,0 +1,47 @@
+.sort_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1em;
+}
+
+.two_icons{
+    display: flex;
+    gap: 1em;
+}
+
+.two_icons .icon{
+    font-size: 1.5em;
+    height: 34px;
+    background: #ececec;
+    padding: 5px;
+  cursor: pointer;
+  /* color: white; */
+}
+
+.two_icons .icon:hover{
+    background: #dbdada;
+}
+
+/* .click{
+    background: white;
+    color: #000;
+} */
+
+#sort{
+    padding: 5px;
+    border-radius: 4px;
+    background: #d1d0d0;
+    color: #5d5c5c;
+    border: none;
+    font-weight: 900;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+    .middle_icon{
+        display: none;
+    }
+}

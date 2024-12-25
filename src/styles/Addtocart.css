@@ -1,0 +1,41 @@
+
+.color{
+    display: flex;
+    gap: 5px;
+}
+
+.style{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    opacity: 1;
+}
+
+.checkStyle{
+    color: white;
+    font-size: 10px;
+}
+
+.link{
+    width: 124px;
+}
+
+.addcart{
+    border: none;
+    cursor: pointer;
+    padding: 1em 2em;
+    background: #5454de;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+}

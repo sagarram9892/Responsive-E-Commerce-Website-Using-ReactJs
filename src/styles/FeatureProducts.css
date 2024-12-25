@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 3em 5em 5em; */
+    padding-block: 4em;
+    width: 1200px;
+    max-width: 90%;
+}
+
+@media (max-width:1000px){
+    .flex{
+        justify-content: space-around;
+    }
+}
